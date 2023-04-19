@@ -10,7 +10,8 @@
 ##### -Alert tostify
 ##### -Postman
 
-##Project features:-
+## Project features:-
+##### --> Full Responsive wesite
 ##### --> authorization and authentication (login , register).
 ##### --> can post anew job !!! only if you login else you can not.
 ##### --> can apply to the job by sent an email to the company using its email.
