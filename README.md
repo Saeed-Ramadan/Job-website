@@ -28,3 +28,33 @@
 <div>
  <img src="https://github.com/Saeed-Ramadan/Job-website/blob/main/project%20photoes/home.png" width="500" height="500" />
 </div>
+
+
+<div>
+ <img src="https://github.com/Saeed-Ramadan/Job-website/blob/main/project%20photoes/home.png](https://github.com/Saeed-Ramadan/Job-website/blob/main/project%20photoes/home-login.png" width="500" height="500" />
+</div>
+
+
+<div>
+ <img src="https://github.com/Saeed-Ramadan/Job-website/blob/main/project%20photoes/home.png](https://github.com/Saeed-Ramadan/Job-website/blob/main/project%20photoes/user%20profile.png" width="500" height="500" />
+</div>
+
+
+<div>
+ <img src="https://github.com/Saeed-Ramadan/Job-website/blob/main/project%20photoes/home.png](https://github.com/Saeed-Ramadan/Job-website/blob/main/project%20photoes/job%20details.png" width="500" height="500" />
+</div>
+
+
+<div>
+ <img src="https://github.com/Saeed-Ramadan/Job-website/blob/main/project%20photoes/home.png](https://github.com/Saeed-Ramadan/Job-website/blob/main/project%20photoes/post%20job.png" width="500" height="500" />
+</div>
+
+
+<div>
+ <img src="https://github.com/Saeed-Ramadan/Job-website/blob/main/project%20photoes/home.png](https://github.com/Saeed-Ramadan/Job-website/blob/main/project%20photoes/login.png" width="500" height="500" />
+</div>
+
+
+<div>
+ <img src="https://github.com/Saeed-Ramadan/Job-website/blob/main/project%20photoes/home.png](https://github.com/Saeed-Ramadan/Job-website/blob/main/project%20photoes/register.png" width="500" height="500" />
+</div>
