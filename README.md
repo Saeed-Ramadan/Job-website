@@ -51,10 +51,10 @@
 
 
 <div>
- <img src="https://github.com/Saeed-Ramadan/Job-website/blob/main/project%20photoes/home.png](https://github.com/Saeed-Ramadan/Job-website/blob/main/project%20photoes/login.png" width="500" height="500" />
+ <img src="https://github.com/Saeed-Ramadan/Job-website/blob/main/project%20photoes/login.png" width="500" height="500" />
 </div>
 
 
 <div>
- <img src="https://github.com/Saeed-Ramadan/Job-website/blob/main/project%20photoes/home.png](https://github.com/Saeed-Ramadan/Job-website/blob/main/project%20photoes/register.png" width="500" height="500" />
+ <img src="https://github.com/Saeed-Ramadan/Job-website/blob/main/project%20photoes/register.png" width="500" height="500" />
 </div>
