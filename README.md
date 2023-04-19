@@ -1,7 +1,7 @@
 # Job-website
 
 
-## Technologies which i used in this project :-
+## Technologies which i used in this project:-
 ##### -HTML
 ##### -CSS
 ##### -JavaScript
