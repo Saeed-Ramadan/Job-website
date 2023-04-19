@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="icon" type="image/x-icon" href="/images/logo.png">
+
+
+  <!--toastify-->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+  <!--axios-->
+  <script src="./node_modules/axios/dist/axios.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <title>JOB</title>
+</head>
+
+<body>
+  <div id="success-alert"></div>
+  <div class="body-hero">
+    <!--header-->
+    <div class="header container">
+      <img class="logo" src="./images/logo.png" alt="logo" />
+      <!--for non logged in user-->
+      <div class="login">
+        <a href="./login.html" id="login">login</a>
+        <a href="./register.html" id="signUp">Sign Up</a>
+      </div>
+
+      <!--for logged in user-->
+      <div class="login" id="logout-div">
+        <div id="userName">ss</div>
+        <a href="#" id="logout" class="btn btn-danger" onclick="logout()" >logOut</a>
+
+      </div>
+    </div>
+    <!--end of header-->
+
+    <!--hero-->
+    <div class="container">
+      <div class="hero">
+        <div class="hero-data">
+          <div id="job-number">
+            <p>+5258 jobs here</p>
+          </div>
+
+          <h3 class="hero-h3">Find your Dream Job</h3>
+          <p class="hero-p2">
+            We provide online instant cash loans with quick approval that suit
+            your term length
+          </p>
+          <a href="./profile.html" id="applybtn">My Jobs</a>
+          <button id="PostAJop">Post a jop</button>
+        </div>
+        <div class="hero-img">
+          <img class="hero-img" src="./images/xillustration.png.pagespeed.ic 1.png" alt="hero img" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--end hero-->
+
+  <!--body-->
+  <main>
+    <div class="container">
+      <div class="body-container">
+        <h5 class="body-container-header">Job listing</h5>
+
+        <ul id="job-view">
+
+
+        </ul>
+      </div>
+    </div>
+
+
+  <!--footer-->
+  <footer></footer>
+  <!--end footer-->
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

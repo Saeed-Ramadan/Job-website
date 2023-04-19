@@ -1,0 +1,11 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.login-container {
+  background-image: url(../images/banner\ 1.png);
+}

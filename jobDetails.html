@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="icon" type="image/x-icon" href="/images/logo.png">
+
+  <style>
+    .modal-header-container {
+      display: flex;
+      justify-content: center;
+    }
+
+    .modal-header-container #modal-header {
+      padding: 5px 30px;
+      background-color: aliceblue;
+      border-radius: 7px;
+    }
+
+    .modal-header-container #modal-header #title {
+      text-transform: capitalize;
+    }
+  </style>
+
+  <!--toastify-->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+  <!--axios-->
+  <script src="./node_modules/axios/dist/axios.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <title>Job Details</title>
+</head>
+
+<body>
+
+
+
+  <!-- Modal job details -->
+  <div id="job-details-container">
+    <div class="modal-dialog modal-xxl mb-0">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="body-hero">
+            <!--header-->
+            <div class="header container">
+              <img class="logo" src="./images/logo.png" alt="" />
+              <div class="login">
+                <a href="./postJob.html" id="signUp">Post a jop</a>
+              </div>
+
+            </div>
+            <div class="modal-header-container">
+              <div id="modal-header"></div>
+            </div>
+
+            <!--end of header-->
+
+
+            <!--Start body-->
+            <main>
+              <div class="container">
+                <div class="body-details" id="body-details"></div>
+              </div>
+            </main>
+            <div class="modal-footer  p-5" id="applyDiv">
+
+
+            </div>
+            <!--End body-->
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </main>
+    <!--end body job details-->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/jobDetails.js"></script>
+</body>
+
+</html>
